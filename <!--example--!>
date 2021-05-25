@@ -1,0 +1,28 @@
+<!--example--!>
+1-SELECT CustomerName,City FROM Customers;
+
+2-SELECT * FROM Customers
+WHERE Country='Mexico';
+
+3-SELECT * FROM Customers
+WHERE Country='Germany' AND City='Berlin';
+
+4-SELECT MIN(Price) AS SmallestPrice
+FROM Products;
+
+5-SELECT COUNT(ProductID)
+FROM Products;
+
+6-SELECT * FROM Customers
+WHERE CustomerName LIKE '%a';
+
+7-SELECT TOP 3 * FROM Customers;Norway');
+
+8-SELECT MIN(Price) AS SmallestPrice
+FROM Products;
+
+9-SELECT * FROM Customers
+ORDER BY Country DESC;
+
+10-SELECT * FROM Customers
+WHERE Country IN ('Germany', 'France', 'UK');
